@@ -1,4 +1,4 @@
 # Tutorials
 
 
-*Just some simple exmaple Rust code example taken/worked/tested from the official Rust tutorials*
+*Just some simple Rust code examples taken/worked/tested from the official Rust tutorials*
