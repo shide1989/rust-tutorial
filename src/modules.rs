@@ -1,5 +1,7 @@
+pub mod control_flow;
 pub mod enums;
 pub mod functions;
+pub mod matches;
 pub mod methods;
 pub mod ownership;
 pub mod ranges;
