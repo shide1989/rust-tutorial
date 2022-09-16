@@ -44,7 +44,7 @@ pub fn eat_at_restaurant() {
 
 mod customer {
     pub mod restaurant {
-        // use crate::modules::packages::back_of_house;
+        use crate::modules::packages::back_of_house;
 
         pub fn eat() {
             let brk = back_of_house::Breakfast::summer("Hey");
