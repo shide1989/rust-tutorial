@@ -6,11 +6,12 @@
 // use crate::modules::methods::*;
 // use crate::modules::enums::*;
 // use crate::modules::matches::*;
-use crate::modules::control_flow::*;
+// use crate::modules::control_flow::*;
+use crate::modules::ranges::test;
 
-pub mod modules;
+mod modules;
 
 fn main() {
     println!("-- Hello tutorials ! --");
-    control_flow();
+    test();
 }
