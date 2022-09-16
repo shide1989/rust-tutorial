@@ -4,6 +4,6 @@
 pub fn collections() {
     // let v: Vec<i32> = Vec::new();
     //OR
-    let v: Vec<i8> = vec![1, 2, 3];
-    // TODO: continue here
+    let mut v: Vec<i8> = vec![1, 2, 3];
+    v.push(9);
 }
