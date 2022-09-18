@@ -45,11 +45,11 @@ pub fn calculate() {
 }
 
 pub fn arrays() {
-    let mut a: [i32; 10] = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90];
+    let mut a: [i8; 10] = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90];
     let mut index = 0;
 
-    while index <= 5 {
-        a[index] = rand::thread_rng().gen_range(0..=100);
+    while index < a.len() {
+        a[index] = rand::thread_rng().gen_range(-128..=127);
         index += 1;
         println!("index : {index}");
     }

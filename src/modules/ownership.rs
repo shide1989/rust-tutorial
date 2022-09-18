@@ -32,7 +32,7 @@ pub fn no_dangle() -> String {
 }
 
 pub fn slices() {
-    let mut s = String::from("hey there !");
+    let mut s = String::from("Зд равс твуйте !");
 
     let hey = first_word(&s);
     println!("Msg: -- {} --", hey);
@@ -42,7 +42,9 @@ pub fn slices() {
 pub fn first_word(s: &String) -> &str {
     let bytes = s.as_bytes();
     for (i, &item) in bytes.iter().enumerate() {
+        // check for space character.
         if item == b' ' {
+            println!("Found first word at byte index {}", i);
             return &s[0..i];
         }
     }

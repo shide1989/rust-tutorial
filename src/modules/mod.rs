@@ -1,11 +1,14 @@
 pub mod collections;
 pub mod control_flow;
 pub mod enums;
+pub mod format;
 pub mod functions;
+pub mod hashmaps;
 pub mod matches;
 pub mod methods;
 pub mod ownership;
 pub mod packages;
 pub mod ranges;
+pub mod strings;
 pub mod struct_example;
 pub mod strutures;

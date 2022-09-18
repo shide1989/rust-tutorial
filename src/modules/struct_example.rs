@@ -21,6 +21,9 @@ pub fn areas() {
         "The area of the rectangle is {:#?} square pixels.",
         area(&rect1)
     );
+
+    // if we used `area(rect1)` : the ownership would have changed, so rect1 is unusable.
+    // let b = rect1.width;
 }
 
 fn area(dimensions: &Rectangle) -> u32 {

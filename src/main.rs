@@ -7,11 +7,17 @@
 // use crate::modules::enums::*;
 // use crate::modules::matches::*;
 // use crate::modules::control_flow::*;
-use crate::modules::ranges::test;
+// use crate::modules::ranges::test;
+// use crate::modules::collections;
+// use crate::modules::strings;
+// use crate::modules::functions;
+// use crate::modules::ownership;
+use crate::modules::format;
+use crate::modules::hashmaps;
 
 mod modules;
 
 fn main() {
     println!("-- Hello tutorials ! --");
-    test();
+    hashmaps::overwrite_values();
 }
