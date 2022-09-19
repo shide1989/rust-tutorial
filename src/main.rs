@@ -19,5 +19,5 @@ mod modules;
 
 fn main() {
     println!("-- Hello tutorials ! --");
-    hashmaps::overwrite_values();
+    hashmaps::update_values();
 }

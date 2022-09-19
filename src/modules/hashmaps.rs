@@ -28,5 +28,18 @@ pub fn overwrite_values() {
     // Using the entry method:
     scores.entry(String::from("Blue")).or_insert(25);
 
-    println!("{:?}", scores);
+    println!("Scores : {:?}", scores);
+}
+
+pub fn update_values() {
+    let text = "hello world wonderful world";
+    let mut map = collections::HashMap::new();
+
+    for word in text.split_whitespace() {
+        let count = map.entry(word).or_insert(0);
+        *count += 1;
+        // println!("count {}", count);
+    }
+
+    println!("hashmap: {:?}", map);
 }
