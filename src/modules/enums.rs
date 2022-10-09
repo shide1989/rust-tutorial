@@ -43,11 +43,12 @@ impl Message {
         println!("Self call: {:?}", self);
     }
 }
-
 pub fn options() {
     // let some_number = Some(5);
     // let some_char = Some('c');
 
+    // Allow unused 'None' value for this tutorial.
+    #[allow(unused)]
     let mut empty_num: Option<i32> = None;
     empty_num = Some(5);
 

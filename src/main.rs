@@ -1,3 +1,6 @@
+#![allow(dead_code, unused_variables, unused_imports)]
+// The allow is used to avoid warnings on this tutorial project
+
 // use crate::modules::functions::*;
 // use crate::modules::ranges::*;
 // use crate::modules::ownership::*;
@@ -12,12 +15,15 @@
 // use crate::modules::strings;
 // use crate::modules::functions;
 // use crate::modules::ownership;
-use crate::modules::format;
+// use crate::modules::format;
+use crate::modules::errors;
+use crate::modules::generics;
 use crate::modules::hashmaps;
+use crate::modules::traits;
 
 mod modules;
 
 fn main() {
     println!("-- Hello tutorials ! --");
-    hashmaps::update_values();
+    traits::test_traits();
 }

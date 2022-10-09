@@ -1,8 +1,10 @@
 pub mod collections;
 pub mod control_flow;
 pub mod enums;
+pub mod errors;
 pub mod format;
 pub mod functions;
+pub mod generics;
 pub mod hashmaps;
 pub mod matches;
 pub mod methods;
@@ -12,3 +14,4 @@ pub mod ranges;
 pub mod strings;
 pub mod struct_example;
 pub mod strutures;
+pub mod traits;
