@@ -6,6 +6,7 @@ pub mod format;
 pub mod functions;
 pub mod generics;
 pub mod hashmaps;
+pub mod lifetimes;
 pub mod matches;
 pub mod methods;
 pub mod ownership;

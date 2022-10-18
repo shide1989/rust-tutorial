@@ -16,14 +16,15 @@
 // use crate::modules::functions;
 // use crate::modules::ownership;
 // use crate::modules::format;
-use crate::modules::errors;
-use crate::modules::generics;
-use crate::modules::hashmaps;
-use crate::modules::traits;
+// use crate::modules::errors;
+// use crate::modules::generics;
+// use crate::modules::hashmaps;
+// use crate::modules::traits;
+use crate::modules::lifetimes;
 
 mod modules;
 
 fn main() {
     println!("-- Hello tutorials ! --");
-    traits::test_traits();
+    lifetimes::scoped_lifetimes();
 }
